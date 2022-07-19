@@ -1,0 +1,40 @@
+.contact-table{
+    margin-top: 25px;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+  }
+  
+  table td, table th {
+    border: 1px solid rgb(215, 209, 209);
+    padding: 8px;
+    
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;
+  cursor: pointer;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #d9138a;
+    color: white;
+    
+  }
+  tbody>tr>td:nth-last-child(1)>i{
+    margin-left: 3px;
+    cursor: pointer;
+  }
+  tbody>tr>td:nth-last-child(1)>i:nth-child(1){
+    color: red;
+  }
+  tbody>tr>td:nth-last-child(1)>i:nth-child(2){
+    color:skyblue;
+  }
